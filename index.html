@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Topic</title>
+    
+  <link rel="stylesheet" href="style_dark.css" id="theme_css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+</head>
+
+<body> 
+    <div class = "navbar">
+        <h2 id = "user" style="width:230px; font-size: 1.3em;"></h2>
+        <h2 id = "space" style="width:350px; font-size: 1.3em;"></h2>
+        <h2><span id = "crypto">Crypto</span>Graph</h2>
+        <h2 id = "space" style="width:130px; font-size: 1.3em;"></h2>
+        <h2 onCLick= "theme()" id = "theme" style="width:130px; font-size: 1.3em;"><a style="cursor: grab;">Theme</a></h2>
+        <h2 style="width:230px; font-size: 1.3em;"><a href="/auth.html">Sign In</a></h2>
+    </div>
+    <div style="float: left" id="pd">
+        <h1 id = "price">0</h1>
+        <h2 id = "change">0</h2>
+        <p id = "dt">date</p>
+        <p id = "name">BTC</p>
+    </div>
+    
+<div class="btn-group" style="clear:both">
+      <button onClick="coin(this)">BTC</button>
+      <button onClick="coin(this)">ETH</button>
+      <button onClick="coin(this)">LTC</button>
+</div>
+<div  id="chart_div" style="height: 500px; width: 100%;clear:both;"></div>
+<div class="btn-group">
+      <button onClick="time(this)">24H</button>
+      <button id = "start" onClick="time(this)">1W</button>
+      <button onClick="time(this)">1M</button>
+    <button onClick="time(this)">1Y</button>
+</div>
+<br>
+<br>
+<h1 id ="news_head">BTC News</h1>
+<div id="news" style="height: 500px; width:100%;">
+    
+</div>
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    
+<script src="script.js"></script>
+</body>
+</html>

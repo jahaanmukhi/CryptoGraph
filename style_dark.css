@@ -1,0 +1,157 @@
+body {
+    background-color: #171616;
+}
+
+
+.navbar {
+    width: 101%;
+    margin: -20px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#crypto {
+    color: #ffdc4b;
+}
+
+.navbar > h2 {
+    font-size: 1.5em;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#news {
+    margin: -5px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+
+.article {
+    height: 150px;
+    border: 2px solid #171616;
+    overflow: hidden;
+}
+
+.article > h5 {
+    margin: 0px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: #d10040;
+}
+
+.article > img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.article > h2 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.article > p {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #3e3b3b;
+}
+
+#pd, #bank {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin-bottom: -2px;
+}
+
+p {
+    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+}
+
+
+#change {
+    margin: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group button:last-child {
+  border-radius: 0 6px 6px 0;
+  margin-left: -1px;
+}
+
+.btn-group button:first-child {
+  border-radius: 6px 0 0 6px;
+  margin-left: 0;
+}
+
+.btn-group button {
+    border-radius: 0px;
+    border: 1px solid #ffdc4b;
+    color: #ffdc4b;
+    background-color: #171616
+}
+
+.btn-group button:hover{background-color:#ffdc4b;
+color: #171616;}
+
+.btn-group button:focus{background-color:#ffdc4b;
+color: #171616;}
+
+.navbar > h2 > a {
+    color: white;
+}
+
+.buy > div > input {
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background-color: #585555;
+    color: white;
+    font-size: 2em;
+}
+
+.buy > div > button {
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.0em;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+}
+

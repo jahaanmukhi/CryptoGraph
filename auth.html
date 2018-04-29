@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Topic</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+</head>
+
+<body> 
+    
+<div id="firebaseui-auth-container"></div>
+    </div>
+    
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyDEK9i0ObP-h3_as-0IT9XKBGyn349U-s4",
+    authDomain: "cryptograph-91e3c.firebaseapp.com",
+    databaseURL: "https://cryptograph-91e3c.firebaseio.com",
+    projectId: "cryptograph-91e3c",
+    storageBucket: "cryptograph-91e3c.appspot.com",
+    messagingSenderId: "747537710361"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+<script src="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.js"></script>  
+   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css" />  
+   <script type="text/javascript">  
+    var uiConfig = {  
+     signInSuccessUrl: 'index.html',  
+     signInOptions: [    
+      firebase.auth.EmailAuthProvider.PROVIDER_ID  
+     ] 
+    };   
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());    
+    ui.start('#firebaseui-auth-container', uiConfig);
+ </script>
+    </body>
+</html>

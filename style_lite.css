@@ -1,0 +1,139 @@
+body {
+    background-color: ghostwhite;
+}
+
+
+.navbar {
+    width: 101%;
+    margin: -20px;
+    padding: 10px;
+    background-color: rgba(168, 198, 255, 0.51);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#crypto {
+    color: #23a2ff;
+}
+
+.navbar > h2 {
+    font-size: 1.5em;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#news {
+    margin: -5px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+
+.article {
+    height: 150px;
+    border: 2px solid white;
+    background-color: rgba(77, 77, 77, 0.99);
+    overflow: hidden;
+}
+
+.article > h5 {
+    margin: 0px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: #23a2ff;
+}
+
+.article > img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.article > h2 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.article > p {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: ghostwhite;
+}
+
+#pd, #bank {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: black;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    color: black;
+    margin-bottom: -2px;
+}
+
+p {
+    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    margin: 0;
+}
+
+
+#change {
+    margin: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group button:last-child {
+  border-radius: 0 6px 6px 0;
+  margin-left: -1px;
+}
+
+.btn-group button:first-child {
+  border-radius: 6px 0 0 6px;
+  margin-left: 0;
+}
+
+.btn-group button {
+    border-radius: 0px;
+    border: 1px solid #23a2ff;
+    color: black;
+    background-color: ghostwhite;
+}
+
+.btn-group button:hover{background-color:#23a2ff;
+color: ghostwhite;}
+
+.btn-group button:focus{background-color:#23a2ff;
+color: ghostwhite;}
+
+.navbar > h2 > a {
+    color: black;
+}
+
